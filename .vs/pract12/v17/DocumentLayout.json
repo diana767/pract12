@@ -1,0 +1,397 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\pract12\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{43FA3C06-35B5-4828-B879-9727156A812A}|pract12.csproj|c:\\users\\user\\desktop\\pract12\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{43FA3C06-35B5-4828-B879-9727156A812A}|pract12.csproj|solutionrelative:pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43FA3C06-35B5-4828-B879-9727156A812A}|pract12.csproj|c:\\users\\user\\desktop\\pract12\\pages\\studentformpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{43FA3C06-35B5-4828-B879-9727156A812A}|pract12.csproj|solutionrelative:pages\\studentformpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43FA3C06-35B5-4828-B879-9727156A812A}|pract12.csproj|c:\\users\\user\\desktop\\pract12\\pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43FA3C06-35B5-4828-B879-9727156A812A}|pract12.csproj|solutionrelative:pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43FA3C06-35B5-4828-B879-9727156A812A}|pract12.csproj|c:\\users\\user\\desktop\\pract12\\pages\\studentformpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43FA3C06-35B5-4828-B879-9727156A812A}|pract12.csproj|solutionrelative:pages\\studentformpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\AppData\\Local\\Temp\\.vsdbgsrc\\ee34aec267e065140087abd7fd236fad482e6d3ee1f4162ad1b181c8d9923474\\XamlReader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43FA3C06-35B5-4828-B879-9727156A812A}|pract12.csproj|c:\\users\\user\\desktop\\pract12\\validationrules\\requiredrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43FA3C06-35B5-4828-B879-9727156A812A}|pract12.csproj|solutionrelative:validationrules\\requiredrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43FA3C06-35B5-4828-B879-9727156A812A}|pract12.csproj|c:\\users\\user\\desktop\\pract12\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{43FA3C06-35B5-4828-B879-9727156A812A}|pract12.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43FA3C06-35B5-4828-B879-9727156A812A}|pract12.csproj|c:\\users\\user\\desktop\\pract12\\validationrules\\passwordrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43FA3C06-35B5-4828-B879-9727156A812A}|pract12.csproj|solutionrelative:validationrules\\passwordrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43FA3C06-35B5-4828-B879-9727156A812A}|pract12.csproj|c:\\users\\user\\desktop\\pract12\\validationrules\\minlengthrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43FA3C06-35B5-4828-B879-9727156A812A}|pract12.csproj|solutionrelative:validationrules\\minlengthrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43FA3C06-35B5-4828-B879-9727156A812A}|pract12.csproj|c:\\users\\user\\desktop\\pract12\\validationrules\\emailrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43FA3C06-35B5-4828-B879-9727156A812A}|pract12.csproj|solutionrelative:validationrules\\emailrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43FA3C06-35B5-4828-B879-9727156A812A}|pract12.csproj|c:\\users\\user\\desktop\\pract12\\validationrules\\daterule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43FA3C06-35B5-4828-B879-9727156A812A}|pract12.csproj|solutionrelative:validationrules\\daterule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43FA3C06-35B5-4828-B879-9727156A812A}|pract12.csproj|c:\\users\\user\\desktop\\pract12\\data\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43FA3C06-35B5-4828-B879-9727156A812A}|pract12.csproj|solutionrelative:data\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43FA3C06-35B5-4828-B879-9727156A812A}|pract12.csproj|c:\\users\\user\\desktop\\pract12\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43FA3C06-35B5-4828-B879-9727156A812A}|pract12.csproj|solutionrelative:assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43FA3C06-35B5-4828-B879-9727156A812A}|pract12.csproj|c:\\users\\user\\desktop\\pract12\\service\\basedbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43FA3C06-35B5-4828-B879-9727156A812A}|pract12.csproj|solutionrelative:service\\basedbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43FA3C06-35B5-4828-B879-9727156A812A}|pract12.csproj|c:\\users\\user\\desktop\\pract12\\pract12.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{43FA3C06-35B5-4828-B879-9727156A812A}|pract12.csproj|solutionrelative:pract12.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43FA3C06-35B5-4828-B879-9727156A812A}|pract12.csproj|c:\\users\\user\\desktop\\pract12\\service\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43FA3C06-35B5-4828-B879-9727156A812A}|pract12.csproj|solutionrelative:service\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43FA3C06-35B5-4828-B879-9727156A812A}|pract12.csproj|c:\\users\\user\\desktop\\pract12\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43FA3C06-35B5-4828-B879-9727156A812A}|pract12.csproj|solutionrelative:migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43FA3C06-35B5-4828-B879-9727156A812A}|pract12.csproj|c:\\users\\user\\desktop\\pract12\\migrations\\20251127032919_initialdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43FA3C06-35B5-4828-B879-9727156A812A}|pract12.csproj|solutionrelative:migrations\\20251127032919_initialdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43FA3C06-35B5-4828-B879-9727156A812A}|pract12.csproj|c:\\users\\user\\desktop\\pract12\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43FA3C06-35B5-4828-B879-9727156A812A}|pract12.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43FA3C06-35B5-4828-B879-9727156A812A}|pract12.csproj|c:\\users\\user\\desktop\\pract12\\observableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43FA3C06-35B5-4828-B879-9727156A812A}|pract12.csproj|solutionrelative:observableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43FA3C06-35B5-4828-B879-9727156A812A}|pract12.csproj|c:\\users\\user\\desktop\\pract12\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{43FA3C06-35B5-4828-B879-9727156A812A}|pract12.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43FA3C06-35B5-4828-B879-9727156A812A}|pract12.csproj|c:\\users\\user\\desktop\\pract12\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43FA3C06-35B5-4828-B879-9727156A812A}|pract12.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\pract12\\Pages\\MainPage.xaml",
+              "RelativeDocumentMoniker": "Pages\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\pract12\\Pages\\MainPage.xaml",
+              "RelativeToolTip": "Pages\\MainPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-24T06:21:50.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\pract12\\Pages\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\pract12\\Pages\\MainPage.xaml.cs",
+              "RelativeToolTip": "Pages\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T04:15:22.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentFormPage.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\pract12\\Pages\\StudentFormPage.xaml",
+              "RelativeDocumentMoniker": "Pages\\StudentFormPage.xaml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\pract12\\Pages\\StudentFormPage.xaml",
+              "RelativeToolTip": "Pages\\StudentFormPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-24T06:24:06.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RequiredRule.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\pract12\\ValidationRules\\RequiredRule.cs",
+              "RelativeDocumentMoniker": "ValidationRules\\RequiredRule.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\pract12\\ValidationRules\\RequiredRule.cs",
+              "RelativeToolTip": "ValidationRules\\RequiredRule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T03:40:00.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "XamlReader.cs",
+              "DocumentMoniker": "C:\\Users\\User\\AppData\\Local\\Temp\\.vsdbgsrc\\ee34aec267e065140087abd7fd236fad482e6d3ee1f4162ad1b181c8d9923474\\XamlReader.cs",
+              "RelativeDocumentMoniker": "..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\ee34aec267e065140087abd7fd236fad482e6d3ee1f4162ad1b181c8d9923474\\XamlReader.cs",
+              "ToolTip": "C:\\Users\\User\\AppData\\Local\\Temp\\.vsdbgsrc\\ee34aec267e065140087abd7fd236fad482e6d3ee1f4162ad1b181c8d9923474\\XamlReader.cs [\u0422\u043E\u043B\u044C\u043A\u043E \u0447\u0442\u0435\u043D\u0438\u0435]",
+              "RelativeToolTip": "..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\ee34aec267e065140087abd7fd236fad482e6d3ee1f4162ad1b181c8d9923474\\XamlReader.cs [\u0422\u043E\u043B\u044C\u043A\u043E \u0447\u0442\u0435\u043D\u0438\u0435]",
+              "ViewState": "AgIAAM8BAAAAAAAAAAAgwPABAAAsAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T05:00:46.725Z",
+              "EditorCaption": " [\u0422\u043E\u043B\u044C\u043A\u043E \u0447\u0442\u0435\u043D\u0438\u0435]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentFormPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\pract12\\Pages\\StudentFormPage.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\StudentFormPage.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\pract12\\Pages\\StudentFormPage.xaml.cs",
+              "RelativeToolTip": "Pages\\StudentFormPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T06:28:27.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\pract12\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\pract12\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-27T04:15:20.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PasswordRule.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\pract12\\ValidationRules\\PasswordRule.cs",
+              "RelativeDocumentMoniker": "ValidationRules\\PasswordRule.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\pract12\\ValidationRules\\PasswordRule.cs",
+              "RelativeToolTip": "ValidationRules\\PasswordRule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T03:41:51.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MinLengthRule.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\pract12\\ValidationRules\\MinLengthRule.cs",
+              "RelativeDocumentMoniker": "ValidationRules\\MinLengthRule.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\pract12\\ValidationRules\\MinLengthRule.cs",
+              "RelativeToolTip": "ValidationRules\\MinLengthRule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T03:40:41.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EmailRule.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\pract12\\ValidationRules\\EmailRule.cs",
+              "RelativeDocumentMoniker": "ValidationRules\\EmailRule.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\pract12\\ValidationRules\\EmailRule.cs",
+              "RelativeToolTip": "ValidationRules\\EmailRule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T03:41:17.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DateRule.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\pract12\\ValidationRules\\DateRule.cs",
+              "RelativeDocumentMoniker": "ValidationRules\\DateRule.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\pract12\\ValidationRules\\DateRule.cs",
+              "RelativeToolTip": "ValidationRules\\DateRule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T03:43:45.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\pract12\\Data\\Student.cs",
+              "RelativeDocumentMoniker": "Data\\Student.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\pract12\\Data\\Student.cs",
+              "RelativeToolTip": "Data\\Student.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAADwvyUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T06:00:16.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\pract12\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\pract12\\AssemblyInfo.cs",
+              "RelativeToolTip": "AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T04:41:06.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BaseDbService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\pract12\\Service\\BaseDbService.cs",
+              "RelativeDocumentMoniker": "Service\\BaseDbService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\pract12\\Service\\BaseDbService.cs",
+              "RelativeToolTip": "Service\\BaseDbService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T06:26:24.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "pract12.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\pract12\\pract12.csproj",
+              "RelativeDocumentMoniker": "pract12.csproj",
+              "ToolTip": "C:\\Users\\User\\Desktop\\pract12\\pract12.csproj",
+              "RelativeToolTip": "pract12.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-24T06:21:01.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\pract12\\Service\\StudentService.cs",
+              "RelativeDocumentMoniker": "Service\\StudentService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\pract12\\Service\\StudentService.cs",
+              "RelativeToolTip": "Service\\StudentService.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T06:27:11.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\pract12\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\pract12\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T03:35:35.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20251127032919_InitialDB.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\pract12\\Migrations\\20251127032919_InitialDB.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251127032919_InitialDB.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\pract12\\Migrations\\20251127032919_InitialDB.cs",
+              "RelativeToolTip": "Migrations\\20251127032919_InitialDB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T03:29:19.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\pract12\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\pract12\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T05:58:08.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ObservableObject.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\pract12\\ObservableObject.cs",
+              "RelativeDocumentMoniker": "ObservableObject.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\pract12\\ObservableObject.cs",
+              "RelativeToolTip": "ObservableObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T04:35:01.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\pract12\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\pract12\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-24T05:51:19.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\pract12\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\pract12\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T04:12:06.235Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
