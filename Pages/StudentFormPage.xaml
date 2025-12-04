@@ -4,12 +4,17 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:pract12.Pages"
+      xmlns:services="clr-namespace:pract12.Service"
       xmlns:validation="clr-namespace:pract12.ValidationRules"
       xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
       mc:Ignorable="d" 
-      d:DesignHeight="500" d:DesignWidth="600"
+      d:DesignHeight="800" d:DesignWidth="800"
       Title="Форма студента"
       Background="{DynamicResource MaterialDesignBackground}">
+
+    <Page.Resources>
+        <services:RolesService x:Key="rolesService"/>
+    </Page.Resources>
 
     <Grid>
         <materialDesign:Card Margin="24" Padding="0">
@@ -33,7 +38,6 @@
                 <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto" Padding="24">
                     <StackPanel Width="400">
 
-                        
                         <StackPanel Margin="0,0,0,16">
                             <TextBlock Text="Логин *" FontSize="14" FontWeight="Medium" Margin="0,0,0,4"
                                      Foreground="{DynamicResource MaterialDesignBody}"/>
@@ -58,7 +62,6 @@
                             </ItemsControl>
                         </StackPanel>
 
-                       
                         <StackPanel Margin="0,0,0,16">
                             <TextBlock Text="Имя *" FontSize="14" FontWeight="Medium" Margin="0,0,0,4"
                                      Foreground="{DynamicResource MaterialDesignBody}"/>
@@ -82,7 +85,7 @@
                             </ItemsControl>
                         </StackPanel>
 
-                        
+                     
                         <StackPanel Margin="0,0,0,16">
                             <TextBlock Text="Email *" FontSize="14" FontWeight="Medium" Margin="0,0,0,4"
                                      Foreground="{DynamicResource MaterialDesignBody}"/>
@@ -107,7 +110,6 @@
                             </ItemsControl>
                         </StackPanel>
 
-                        
                         <StackPanel Margin="0,0,0,16">
                             <TextBlock Text="Пароль *" FontSize="14" FontWeight="Medium" Margin="0,0,0,4"
                                      Foreground="{DynamicResource MaterialDesignBody}"/>
@@ -132,7 +134,7 @@
                             </ItemsControl>
                         </StackPanel>
 
-                      
+                       
                         <StackPanel Margin="0,0,0,16" Visibility="Collapsed">
                             <TextBlock Text="Дата создания" FontSize="14" FontWeight="Medium" Margin="0,0,0,4"
                                      Foreground="{DynamicResource MaterialDesignBody}"/>
@@ -154,6 +156,134 @@
                                 </ItemsControl.ItemTemplate>
                             </ItemsControl>
                         </StackPanel>
+
+                       
+                        <StackPanel Margin="0,0,0,16">
+                            <TextBlock Text="Ссылка на изображение" FontSize="14" FontWeight="Medium" Margin="0,0,0,4"
+                                     Foreground="{DynamicResource MaterialDesignBody}"/>
+                            <TextBox x:Name="AvatarUrlTextBox"
+                                     materialDesign:HintAssist.Hint="URL аватара">
+                                <TextBox.Text>
+                                    <Binding Path="UserProfile.AvatarUrl" UpdateSourceTrigger="PropertyChanged">
+                                        <Binding.ValidationRules>
+                                            <validation:UrlRule/>
+                                        </Binding.ValidationRules>
+                                    </Binding>
+                                </TextBox.Text>
+                            </TextBox>
+                            <ItemsControl Foreground="{DynamicResource MaterialDesignValidationErrorBrush}" FontSize="12"
+                                        ItemsSource="{Binding ElementName=AvatarUrlTextBox, Path=(Validation.Errors)}">
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding ErrorContent}" TextWrapping="Wrap" Margin="4,2,0,0"/>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                        </StackPanel>
+
+                       
+                        <StackPanel Margin="0,0,0,16">
+                            <TextBlock Text="Номер телефона" FontSize="14" FontWeight="Medium" Margin="0,0,0,4"
+                                     Foreground="{DynamicResource MaterialDesignBody}"/>
+                            <TextBox x:Name="PhoneTextBox"
+                                     materialDesign:HintAssist.Hint="+7 (XXX) XXX-XX-XX">
+                                <TextBox.Text>
+                                    <Binding Path="UserProfile.Phone" UpdateSourceTrigger="PropertyChanged">
+                                        <Binding.ValidationRules>
+                                            <validation:PhoneRule/>
+                                        </Binding.ValidationRules>
+                                    </Binding>
+                                </TextBox.Text>
+                            </TextBox>
+                            <ItemsControl Foreground="{DynamicResource MaterialDesignValidationErrorBrush}" FontSize="12"
+                                        ItemsSource="{Binding ElementName=PhoneTextBox, Path=(Validation.Errors)}">
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding ErrorContent}" TextWrapping="Wrap" Margin="4,2,0,0"/>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                        </StackPanel>
+
+                    
+                        <StackPanel Margin="0,0,0,16">
+                            <TextBlock Text="Дата рождения" FontSize="14" FontWeight="Medium" Margin="0,0,0,4"
+                                     Foreground="{DynamicResource MaterialDesignBody}"/>
+                            <DatePicker x:Name="BirthdayDatePicker"
+                                        materialDesign:HintAssist.Hint="ДД.ММ.ГГГГ">
+                                <DatePicker.SelectedDate>
+                                    <Binding Path="UserProfile.Birthday" UpdateSourceTrigger="PropertyChanged">
+                                        <Binding.ValidationRules>
+                                            <validation:DateRule/>
+                                        </Binding.ValidationRules>
+                                    </Binding>
+                                </DatePicker.SelectedDate>
+                            </DatePicker>
+                            <ItemsControl Foreground="{DynamicResource MaterialDesignValidationErrorBrush}" FontSize="12"
+                                        ItemsSource="{Binding ElementName=BirthdayDatePicker, Path=(Validation.Errors)}">
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding ErrorContent}" TextWrapping="Wrap" Margin="4,2,0,0"/>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                        </StackPanel>
+
+                        
+                        <StackPanel Margin="0,0,0,16">
+                            <TextBlock Text="Краткое описание" FontSize="14" FontWeight="Medium" Margin="0,0,0,4"
+                                     Foreground="{DynamicResource MaterialDesignBody}"/>
+                            <TextBox x:Name="BioTextBox"
+                                     materialDesign:HintAssist.Hint="О себе"
+                                     AcceptsReturn="True"
+                                     TextWrapping="Wrap"
+                                     Height="60"
+                                     VerticalScrollBarVisibility="Auto">
+                                <TextBox.Text>
+                                    <Binding Path="UserProfile.Bio" UpdateSourceTrigger="PropertyChanged">
+                                        <Binding.ValidationRules>
+                                            <validation:RequiredRule/>
+                                        </Binding.ValidationRules>
+                                    </Binding>
+                                </TextBox.Text>
+                            </TextBox>
+                            <ItemsControl Foreground="{DynamicResource MaterialDesignValidationErrorBrush}" FontSize="12"
+                                        ItemsSource="{Binding ElementName=BioTextBox, Path=(Validation.Errors)}">
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding ErrorContent}" TextWrapping="Wrap" Margin="4,2,0,0"/>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                        </StackPanel>
+
+                        
+                        <StackPanel Margin="0,0,0,16">
+                            <TextBlock Text="Роль *" FontSize="14" FontWeight="Medium" Margin="0,0,0,4"
+                                     Foreground="{DynamicResource MaterialDesignBody}"/>
+                            <ComboBox x:Name="RoleComboBox"
+                                      ItemsSource="{Binding Source={StaticResource rolesService}, Path=Roles}"
+                                      DisplayMemberPath="Title"
+                                      SelectedValue="{Binding UserProfile.RoleId}"
+                                      SelectedValuePath="Id"
+                                      materialDesign:HintAssist.Hint="Выберите роль"
+                                      Height="36">
+                                <ComboBox.Style>
+                                    <Style TargetType="ComboBox">
+                                        <Setter Property="materialDesign:HintAssist.IsFloating" Value="True"/>
+                                    </Style>
+                                </ComboBox.Style>
+                            </ComboBox>
+                            <ItemsControl Foreground="{DynamicResource MaterialDesignValidationErrorBrush}" FontSize="12"
+                                        ItemsSource="{Binding ElementName=RoleComboBox, Path=(Validation.Errors)}">
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding ErrorContent}" TextWrapping="Wrap" Margin="4,2,0,0"/>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                        </StackPanel>
+
                     </StackPanel>
                 </ScrollViewer>
 

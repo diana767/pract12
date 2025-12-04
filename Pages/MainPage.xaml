@@ -42,6 +42,7 @@
                             </StackPanel>
                         </DataTemplate>
                     </Button.ContentTemplate>
+                    
                 </Button>
 
                 <Button Click="Edit" 
@@ -52,6 +53,17 @@
                             <StackPanel Orientation="Horizontal">
                                 <materialDesign:PackIcon Kind="Edit" Width="16" Height="16" Margin="0,0,8,0"/>
                                 <TextBlock Text="Редактировать" VerticalAlignment="Center"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </Button.ContentTemplate>
+                </Button>
+
+                <Button Click="go_roli" 
+        Content="Роли"  Margin="16,0,0,0">
+                    <Button.ContentTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="Пользователи по ролям"/>
                             </StackPanel>
                         </DataTemplate>
                     </Button.ContentTemplate>
@@ -96,6 +108,25 @@
                                     <TextBlock Text="Создан:" FontWeight="SemiBold" Margin="0,0,8,0"/>
                                     <TextBlock Text="{Binding CreatedAt, StringFormat={}{0:dd.MM.yyyy HH:mm}}"/>
                                 </StackPanel>
+
+                                <StackPanel Orientation="Horizontal" Margin="0,2">
+                                    <TextBlock>Профиль пользователя:</TextBlock>
+                                    <TextBlock>
+                                        <Run Text=" ссылка на изображение: "/>
+                                        <Run Text="{Binding UserProfile.AvatarUrl}"/>
+                                        <Run Text=" номер телефона: "/>
+                                        <Run Text="{Binding UserProfile.Phone}"/>
+                                        <Run Text=" дата рождения: "/>
+                                        <Run Text="{Binding UserProfile.Birthday}"/>
+                                        <Run Text=" краткое описание: "/>
+                                        <Run Text="{Binding UserProfile.Bio}"/>                                
+                                    </TextBlock>
+                                    <StackPanel Orientation="Horizontal" Margin="0,2">
+                                        <TextBlock>Роль:</TextBlock>
+                                        <TextBlock Text="{Binding UserProfile.Role.Title}" FontWeight="Bold"/>
+                                    </StackPanel>
+                                </StackPanel>
+
                             </StackPanel>
                         </materialDesign:Card>
                     </DataTemplate>

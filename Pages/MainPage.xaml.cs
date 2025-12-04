@@ -80,5 +80,10 @@ namespace pract12.Pages
                 student = null; 
             }
         }
+
+        private void go_roli(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new RoleList());
+        }
     }
 }

@@ -1,4 +1,5 @@
-﻿using pract12.Data;
+﻿using Microsoft.EntityFrameworkCore;
+using pract12.Data;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -13,34 +14,69 @@ namespace pract12.Service
         private readonly AppDbContext _db = BaseDbService.Instance.Context;
         public ObservableCollection<Student> Students { get; set; } = new();
 
+        private readonly RolesService _rolesService = new RolesService();
+
         public StudentsService()
         {
+            _rolesService.EnsureRolesExist();
             GetAll();
         }
 
         public void Add(Student student)
         {
-            var _student = new Student
+            try
             {
-                Login = student.Login,
-                Name = student.Name,
-                Email = student.Email,
-                Password = student.Password,
-                CreatedAt = DateTime.Now 
-            };
-            _db.Add<Student>(_student);
-            Commit();
-            Students.Add(_student);
+              
+                if (student.CreatedAt == default)
+                    student.CreatedAt = DateTime.Now;
+
+                if (student.UserProfile != null && student.UserProfile.RoleId == 0)
+                {
+                    student.UserProfile.RoleId = 1;
+                }
+
+                _db.Students.Add(student);
+                _db.SaveChanges();
+
+                Students.Add(student);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception($"Ошибка при добавлении студента: {ex.Message}");
+            }
         }
 
         public int Commit() => _db.SaveChanges();
 
         public void GetAll()
         {
-            var students = _db.Students.ToList();
+            var students = _db.Students
+                .Include(s => s.UserProfile)
+                    .ThenInclude(up => up.Role)
+                .ToList();
+
             Students.Clear();
+
             foreach (var student in students)
             {
+                if (student.UserProfile == null)
+                {
+                    student.UserProfile = new UserProfile
+                    {
+                        StudentId = student.Id,
+                        RoleId = 1
+                    };
+                }
+                if (student.UserProfile.RoleId == 0)
+                {
+                    student.UserProfile.RoleId = 1;
+                }
+
+                if (student.UserProfile.Role == null && student.UserProfile.RoleId > 0)
+                {
+                    student.UserProfile.Role = _rolesService.GetRoleById(student.UserProfile.RoleId);
+                }
+
                 Students.Add(student);
             }
         }
@@ -55,13 +91,34 @@ namespace pract12.Service
 
         public void Update(Student student)
         {
-            var existingStudent = _db.Students.Find(student.Id);
+            var existingStudent = _db.Students
+                .Include(s => s.UserProfile)
+                .FirstOrDefault(s => s.Id == student.Id);
+
             if (existingStudent != null)
             {
                 existingStudent.Login = student.Login;
                 existingStudent.Name = student.Name;
                 existingStudent.Email = student.Email;
                 existingStudent.Password = student.Password;
+                if (student.UserProfile != null)
+                {
+                    if (existingStudent.UserProfile == null)
+                    {
+                     
+                        student.UserProfile.StudentId = student.Id;
+                        _db.UserProfiles.Add(student.UserProfile);
+                        existingStudent.UserProfile = student.UserProfile;
+                    }
+                    else
+                    {
+                 
+                        existingStudent.UserProfile.AvatarUrl = student.UserProfile.AvatarUrl;
+                        existingStudent.UserProfile.Phone = student.UserProfile.Phone;
+                        existingStudent.UserProfile.Birthday = student.UserProfile.Birthday;
+                        existingStudent.UserProfile.Bio = student.UserProfile.Bio;
+                    }
+                }
 
                 Commit();
 
@@ -72,6 +129,7 @@ namespace pract12.Service
                     studentInCollection.Name = student.Name;
                     studentInCollection.Email = student.Email;
                     studentInCollection.Password = student.Password;
+                    studentInCollection.UserProfile = existingStudent.UserProfile;
                 }
             }
         }

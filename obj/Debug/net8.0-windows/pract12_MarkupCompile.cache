@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\User\Desktop\pract12\App.xaml
-3-771358251
+5-1146905662
 22448498617
-19-2018632676
+26-668952757
 230-1998132836
-MainWindow.xaml;Pages\MainPage.xaml;Pages\StudentFormPage.xaml;
+MainWindow.xaml;Pages\GroupForm.xaml;Pages\MainPage.xaml;Pages\RoleList.xaml;Pages\StudentFormPage.xaml;
 
 False
 

@@ -22,6 +22,8 @@ namespace pract12.Pages
                 _student = _editStudent;
                 isEdit = true;
             }
+            if (_student.UserProfile == null)
+                _student.UserProfile = new();
 
             DataContext = _student;
 
